@@ -13,12 +13,6 @@ This paper presents a comprehensive study on control strategies for addressing p
   <img src="https://github.com/user-attachments/assets/87e2bea1-d1d1-46dd-b944-5bc59a9d93bd" alt="Texto alternativo" width="400">
 </p>
 
-# Process  
-1.  The projec starts finding the mamtematial description of the model.
-2.	The dynamic system is build using Matlab/Simulink.
-3.	Study of Structural Properties. 
-4.	Desing the Optimal controls
-5.	Desing Robust control
 
 # Prerequisites
 - The code was created and tested on the Matlab/Simulink 2023a environment
@@ -26,7 +20,7 @@ This paper presents a comprehensive study on control strategies for addressing p
 # File description
 The repository contains two main files to run the project.  
 
-1. **Report_project**: This contains the explanation of the complete process, the mathematical formulations, and the control configuration.
+1. **Paper**: This contains the explanation of the complete process, the mathematical formulations, and the control configuration.
 
 2. **Code**: This file contains all the necessary MATLAB/Simulink programs
 
@@ -34,8 +28,10 @@ The repository contains two main files to run the project.
 
 ### Matlab/Simulink simulation 
 1. Download the files.
-2. Run the matlab program **CONTROL_ROLL_OVER**
-3. Select the controler
+2. Run the matlab program **init**
+3. Run the simulink model **Line_keeping**
+
+**Note**: This projec is tested using Automated Driving Toolbox, then in order to see the results use The Bird's-Eye Scope
 
 <p align="center">
   <img src="Images/Results.png" alt="Texto alternativo" width="600">
